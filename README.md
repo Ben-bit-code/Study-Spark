@@ -18,7 +18,7 @@ To modify and install this project manually you need the following installed:
 -	Python 3.12
 -	Graphiz
 
-In the root directory open the terminal and type: 'mkdir models'. Then download the file at this link and add it to the 
+In the root directory open the terminal and type: 'mkdir models'. Then download the file at this link https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/resolve/main/Phi-3-mini-4k-instruct-q4.gguf and add it to the 
 models subfolder.
 
 If you have the above installed type this command in your terminal ‘pip install -r requirements.txt’
