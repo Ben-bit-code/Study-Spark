@@ -1,0 +1,5 @@
+[project]
+name = "PySide Project"
+
+[tool.pyside6-project]
+files = ["LICENSE.md", "README.md", "Study Spark.py", "ui_form.py"]
