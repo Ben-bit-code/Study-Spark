@@ -1,0 +1,6 @@
+PySide6
+llama-cpp-python
+python-docx
+pydot
+graphviz
+Nuitka
