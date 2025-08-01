@@ -13,11 +13,13 @@ so at only 2GB of ram and high CPU usage. To overcome the
 GUI freeze, I ran the GUI on the main thread while the 
 model ran in a different worker thread. 
 ## How to use this project
-If you would like to simply use the application download the Study Spark subfolder and run the ‘Study Spark.exe’ file.
-If you would like to modify and install this project manually you need the following installed:
+To modify and install this project manually you need the following installed:
 -	Visual Studio (Desktop Development with C++ workload)
 -	Python 3.12
 -	Graphiz
+
+In the root directory open the terminal and type: 'mkdir models'. Then download the file at this link and add it to the 
+models subfolder.
 
 If you have the above installed type this command in your terminal ‘pip install -r requirements.txt’
 When you are finish modifying the project, type the following command in the root directory of your project:
@@ -29,6 +31,8 @@ When you are finish modifying the project, type the following command in the roo
       --output-dir="Study Spark" ^
       --output-filename="Study Spark.exe" ^
       --windows-console-mode=disable
+
+Open the created subfolder and run the 'Study Spark.exe' file to use the program.
 
 ### License
 This Project is under the MIT License
