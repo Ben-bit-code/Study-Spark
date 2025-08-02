@@ -11,7 +11,7 @@ variety of models and came to the conclusion that Phi 3
 not only provided satisfactory responses for users, but did 
 so at only 2GB of ram and high CPU usage. To overcome the 
 GUI freeze, I ran the GUI on the main thread while the 
-model ran in a different worker thread. 
+model ran in a different worker thread. Prompts given to the model are synthetic.
 ## How to use this project
 To modify and install this project manually you need the following installed:
 -	Visual Studio (Desktop Development with C++ workload)
